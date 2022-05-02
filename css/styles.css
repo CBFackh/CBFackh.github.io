@@ -6057,16 +6057,7 @@ textarea.form-control-lg {
 .carousel-fade .active.carousel-item-end {
   z-index: 0;
   opacity: 0;
-  transition: opacity 0s.6s;
-}
-
-.carousel-fade .active.carousel-item-start h2,
-.carousel-fade .active.carousel-item-end h2,
-.carousel-fade .active.carousel-item-start p,
-.carousel-fade .active.carousel-item-end p,
-.carousel-fade .active.carousel-item-start i,
-.carousel-fade .active.carousel-item-end i {
-  transition: opacity 0s .0s;
+  transition: opacity 0s .1s;
 }
 
 @media (prefers-reduced-motion: reduce) {
