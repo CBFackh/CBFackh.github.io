@@ -6134,31 +6134,27 @@ textarea.form-control-lg {
 }
 
 .carousel-indicators {
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 2;
   display: flex;
   justify-content: center;
-  padding: 0;
-  margin-right: 15%;
-  margin-bottom: 1rem;
-  margin-left: 15%;
   list-style: none;
 }
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
-  padding: 0;
-  margin-right: 3px;
-  margin-left: 3px;
+  width: 3rem;
+  height: 1rem;
+  padding: .5rem;
+  margin-right: .25rem;
+  margin-left: .25rem;
   text-indent: -999px;
   cursor: pointer;
   background-color: #fff;
-  background-clip: padding-box;
+  background-clip: content-box;
   border: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -7921,7 +7917,7 @@ textarea.form-control-lg {
 }
 
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: .75rem !important;
 }
 
 .rounded-0 {
