@@ -10,19 +10,18 @@
     <!-- Font Awesome icons (free version)-->
     <script crossorigin="anonymous" src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"></script>
     <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
-          type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet"/>
 </head>
 <body id="page-top">
-<!-- Navigation-->
+<!-- ################################ NAVIGATION ################################ -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Christian Brandt von Fackh</span>
-        <span class="d-none d-lg-block"><img alt="..."
-                                             class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg"/></span>
+        <span class="d-none d-lg-block"><img alt="..." class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg"/></span>
     </a>
     <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
             data-bs-target="#navbarResponsive" data-bs-toggle="collapse" type="button"><span
@@ -34,11 +33,10 @@
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
         </ul>
     </div>
 </nav>
-<!-- Page Content-->
+<!-- ################################ PAGE CONTENT ################################ -->
 <div class="container-fluid p-0">
     <!-- ################################ ABOUT ################################ -->
     <section class="resume-section" id="about">
@@ -64,7 +62,7 @@
     <hr class="m-0"/>
 
 
-    <!-- Projects-->
+    <!-- ################################ PROJECTS ################################ -->
     <section class="resume-section" id="projects">
         <div class="resume-section-content">
             <h1 class="mb-5">Projects</h1>
@@ -75,14 +73,19 @@
                     <button class="button bg-primary" data-bs-slide-to="1" data-bs-target="#myProjects"></button>
                     <button class="button bg-primary" data-bs-slide-to="2" data-bs-target="#myProjects"></button>
                     <button class="button bg-primary" data-bs-slide-to="3" data-bs-target="#myProjects"></button>
+                    <button class="button bg-primary" data-bs-slide-to="4" data-bs-target="#myProjects"></button>
                 </div>
                 <div class="carousel-inner p-5" style="height: 75vh; overflow-y: auto;">
                     <div class="carousel-item active">
-                        <h2>Ein Fuchs im Netz</h2>
+                        <h2>Ein Fuchs im Netz<i class="material-icons text-secondary" style="margin-left: .75rem">phone_iphone</i></h2>
                         <div class="row">
                             <div class="col-md-6 order-md-2">
-                                <img alt="" class="img-fluid rounded shadow mb-5 bg-primary"
-                                     src="assets/img/FINNApp.png">
+                                <img alt="" class="img-fluid rounded shadow bg-primary" src="assets/img/FINNApp.png">
+                                <div class="applinks">
+                                    <a href="https://www.youtube.com/watch?v=gK0n8Ady8Ys" target="_blank"><i class="fa-brands fa-youtube"></i> Trailer</a>
+                                    <a href="https://play.google.com/store/apps/details?id=de.Foldio.FuchsImNetz&hl=de&gl=US" target="_blank"><i class="fa-brands fa-google-play"></i> Android</a>
+                                    <a href="https://apps.apple.com/de/app/ein-fuchs-im-netz/id1542352535" target="_blank"><i class="fa-brands fa-app-store"></i> iOS</a>
+                                </div>
                             </div>
                             <div class="col-md-6 order-md-1">
                                 <p>"Ein Fuchs im Netz" is a point-and-click adventure for mobile games, teaching
@@ -100,32 +103,35 @@
                     </div>
 
                     <div class="carousel-item">
-                        <h2>The Great Sassanelli</h2>
+                        <h2>The Great Sassanelli<i class="material-icons text-secondary" style="margin-left: .75rem">computer</i></h2>
                         <div class="row">
                             <div class="col-md-6 order-md-2">
-                                <img alt="" class="img-fluid rounded shadow mb-5 bg-primary"
+                                <img alt="" class="img-fluid rounded shadow bg-primary"
                                      src="assets/img/Sassanelli.png">
+                                <div class="applinks">
+                                    <a href="https://www.youtube.com/watch?v=N8YONh2j6TQ" target="_blank"><i class="fa-brands fa-youtube"></i> Trailer</a>
+                                </div>
                             </div>
                             <div class="col-md-6 order-md-1">
-                                <p>"Versteh Mal: Das Wasser" by peachy360 is an educational app for children in primary
-                                    school about the hydrologic cycle. The story of the App develops in handdrawn scenes
-                                    the player colors. When he`s done, the painting gets animated and the main
-                                    characters, two curious water drops, can continue their journey.</p>
-                                <p>In the team of seven artist, developer and designer I was one of two developer. I was
-                                    in charge of the application architecture, core gameplay mechanics and editor-tools.
-                                    Further more I took over the role as team lead and coordinated the agile development
-                                    process.</p>
-                                <i>Tools I used: Unity3D, JetBrains Rider, GitLab, Confluence/JIRA</i>
+                                <p>"The Great Sassanelli" is a text-based, illustrated narrative game for PC and Mac about 
+                                    managing a travelling circus in WWI Europe. The player travels the circuss across Europe, 
+                                    hires performers, entertains cities and villages, keeps the circus save and seeks for sanctuary.</p>
+                                <p>As single programmer I was in charge of realising a prototype that can be used to look for publisher
+                                    investors. The core part is the implementation of the Inkle Engine.</p>
+                                <i>Tools I used: Unity3D, Inkle, JetBrains Rider, GitLab, Confluence/JIRA</i>
                             </div>
                         </div>
                     </div>
 
                     <div class="carousel-item">
-                        <h2>Fold-Lab</h2>
+                        <h2>Fold-Lab<i class="material-icons text-secondary" style="margin-left: .75rem">phone_iphone</i></h2>
                         <div class="row">
                             <div class="col-md-6 order-md-2">
-                                <img alt="" class="img-fluid rounded shadow mb-5 bg-primary"
+                                <img alt="" class="img-fluid rounded shadow bg-primary"
                                      src="assets/img/FoldLabApp.png">
+                                <div class="applinks">
+                                    <a href="https://foldio.tech" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Website</a>
+                                </div>
                             </div>
                             <div class="col-md-6 order-md-1">
                                 <p>The Fold-Lab app is a companion app to the Coding Kits that allows children to
@@ -139,11 +145,15 @@
                     </div>
 
                     <div class="carousel-item">
-                        <h2>VerstehMal: Das Wasser</h2>
+                        <h2>VerstehMal: Das Wasser<i class="material-icons text-secondary" style="margin-left: .75rem">phone_iphone</i></h2>
                         <div class="row">
                             <div class="col-md-6 order-md-2">
-                                <img alt="" class="img-fluid rounded shadow mb-5 bg-primary"
+                                <img alt="" class="img-fluid rounded shadow bg-primary"
                                      src="assets/img/VMWasser.png">
+                                <div class="applinks">
+                                    <a href="https://www.youtube.com/watch?v=FApVsAtvKdg" target="_blank"><i class="fa-brands fa-youtube"></i> Trailer</a>
+                                    <a href="https://play.google.com/store/apps/details?id=de.PeachyApps.VMB.Water" target="_blank"><i class="fa-brands fa-google-play"></i> Android</a>
+                                </div>
                             </div>
                             <div class="col-md-6 order-md-1">
                                 <p>"Versteh Mal: Das Wasser" by peachy360 is an educational app for children in primary
@@ -156,6 +166,26 @@
                                     process.</p>
                                 <i>Tools I used: Unity3D, Unity Cloud Build, Unity Analytics, VS Code, GitLab, Git
                                     Terminal, Confluence/JIRA, XCode</i>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <h2>Websites<i class="material-icons text-secondary" style="margin-left: .75rem">computer</i></h2>
+                        <div class="row">
+                            <div class="col-md-6 order-md-2">
+                                <img alt="" class="img-fluid rounded shadow bg-primary"
+                                     src="assets/img/Websites.png">
+                                <div class="applinks">
+                                    <a href="https://escales.de" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> escales.de</a>
+                                    <a href="https://verstehmal.info" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> verstehmal.info</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 order-md-1">
+                                <p>Throughout my career I designed and developed several websites, ranging from simple static
+                                    pages to more complex versions including webshops and cms. Next to this page my latest
+                                    works are the ones for peachy360 GbR and Escales GmbH.</p>
+                                <i>Tools I used: Wordpress, Elementor, Google Analytics, WooCommerce, Git Terminal</i>
                             </div>
                         </div>
                     </div>
@@ -235,7 +265,11 @@
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Lead Developer</h3>
                     <div class="subheading mb-3">FOLDIO - Creative Learning Technologies GmbH</div>
-                    <p>SHORT DESCRIPTION ABOUT THE PROJECT / WORK.</p>
+                    <p>As a lead developer I took care of the three-headed team of developers, including mentoring and code-reviews. 
+                        I was responsible for planning and coordinating softrware projects like the Fold-Lab, Ein Fuchs im Netz and a
+                        planned project for the national 'Bildungsplattform'.</p>
+                    <p>Further I took care of the Scrum process for the whole production team as a Scrum Master. This included
+                        to teach Scrum to the team, creating learning packages about scrum and planning all Scrum related meetings.</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">October 2020 - Present</span></div>
             </div>
@@ -243,7 +277,11 @@
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Technical Director</h3>
                     <div class="subheading mb-3">Escales GmbH</div>
-                    <p>SHORT DESCRIPTION ABOUT THE PROJECT / WORK.</p>
+                    <p>As a technical director at Escales GmbH I was in charge of the overall IT infrastructure, 
+                        planning the digitalisation of various work processes and maintaining the digital presence of the company.</p>
+                    <p>Further I joined the project planning and execution for the IRMA - a yearly repeating fair for mobility and rehabilitation. 
+                        This work included the coordination of many involved parties before the event as well as coordinating the team thoughout
+                        the event and to make sure all of the 120+ exhibitors are well taken care of.</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">January 2019 - December 2021</span></div>
             </div>
@@ -251,7 +289,11 @@
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Co-Founder & Technical Director</h3>
                     <div class="subheading mb-3">peachy360 Brandt von Fackh, Warken GbR</div>
-                    <p>SHORT DESCRIPTION ABOUT THE PROJECT / WORK.</p>
+                    <p>Right after my studies I embarked on the adventure of founding my very own company to create digital learning games for children.
+                    With a team of 7 developer, artists and educators we created our app "VerstehMal: Das Wasser", which was presented by the ministry of 
+                        environment in Saarland, Germany.</p>
+                    <p>After releasing the first game, we decided to turn away from the mobile market and developed a series of customisable learning booklets, 
+                        which get sold to municipalities and public institutions all over Germany.</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">March 2017 - Present</span></div>
             </div>
@@ -259,7 +301,8 @@
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Game Design Intern</h3>
                     <div class="subheading mb-3">XYRALITY GmbH</div>
-                    <p>SHORT DESCRIPTION ABOUT THE PROJECT / WORK.</p>
+                    <p>Throughout my studies I joined XYRALITY which are known for their browsergame "Lords & Knights".</p>
+                    <p>As a game design intern I supportet the game design team in the topics of balancing, refining gameplay mechanics and level design.</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">March 2016 - September 2016</span></div>
             </div>
@@ -267,7 +310,8 @@
                 <div class="flex-grow-1">
                     <h3 class="mb-0">Developer Student Worker</h3>
                     <div class="subheading mb-3">gamebook.io - Experimental Game GmbH</div>
-                    <p>SHORT DESCRIPTION ABOUT THE PROJECT / WORK.</p>
+                    <p>During my studies, I worked at Experimental Game on a project-related basis as a student assistant.</p>
+                    <p>I joined the developer team and assisted in the development of minor gameplay features as well as bugfixing.</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">December 2015 - January 2016</span></div>
             </div>
@@ -302,21 +346,6 @@
         </div>
     </section>
     <hr class="m-0"/>
-
-
-    <!-- ################################ INTEREST ################################ -->
-    <section class="resume-section" id="interests">
-        <div class="resume-section-content">
-            <h1 class="mb-5">Interests</h1>
-            <p>HERE I WRITE SOMETHING ABOUT MYSELF</p>
-            <p class="mb-0">MTG</p>
-            <p class="mb-0">Boardgames</p>
-            <p class="mb-0">Gaming</p>
-            <p class="mb-0">Cooking</p>
-            <p class="mb-0">Ski / Hikes</p>
-            <p class="mb-0">Dog</p>
-        </div>
-    </section>
 </div>
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
