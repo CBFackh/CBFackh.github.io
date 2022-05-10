@@ -6245,12 +6245,14 @@ textarea.form-control-lg {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 3rem;
-  height: 1rem;
+  width: 5rem;
+  height: 2rem;
   padding: .5rem;
   margin-right: .25rem;
   margin-left: .25rem;
-  text-indent: -999px;
+  color: var(--bs-body-bg);
+  font-weight: bolder;
+  font-size: larger;
   cursor: pointer;
   background-color: #fff;
   background-clip: content-box;
